@@ -1,0 +1,1481 @@
+(how do I correctly prompt the following👉)I had made a portfolio website so it
+was a template and now I want to edit the navigation . I have a new hero section
+with a new navigation and I had separated the files for each section ie I have
+separate html files for the home(index.html),About(about.html) etc. Now I have a
+new index.html which I want to replace the old one with .l want the new navbar
+in the new index.html to replace the old navbar in every file section which I
+had put the old navbar. I want the rest of the information in those files to be
+preserved. Here is the old index.html : //old index.html <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="natashasikwila" />
+
+    <title>Sikwila Natasha Portfolio Website</title>
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- bootstrap cdns -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i"
+      rel="stylesheet"
+    />
+
+    <!-- terminal effect -->
+    <script src="t.min.js"></script>
+
+    <!-- for on scroll animations -->
+    <link rel="stylesheet" href="animate.css" />
+    <script src="wow.min.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!--------------- navbar starts here --------------->
+      <nav>
+        <span id="brand">
+          <a href="index.html">Sikwila Tech Solutions</a>
+        </span>
+
+        <ul id="menu">
+          <li>
+            <a href="index.html">home<span>.</span></a>
+          </li>
+          <li>
+            <a href="work.html">work<span>.</span></a>
+          </li>
+          <li>
+            <a href="about.html">about me<span>.</span></a>
+          </li>
+          <li>
+            <a href="contact.html">contact<span>.</span></a>
+          </li>
+        </ul>
+
+        <div id="toggle">
+          <div class="span">menu</div>
+        </div>
+      </nav>
+
+      <div id="resize">
+        <div class="close-btn">close</div>
+
+        <ul id="menu">
+          <li>
+            <a href="index.html">home<span>.</span></a>
+          </li>
+          <li>
+            <a href="work.html">work<span>.</span></a>
+          </li>
+          <li>
+            <a href="about.html">about me<span>.</span></a>
+          </li>
+          <li>
+            <a href="contact.html">contact<span>.</span></a>
+          </li>
+        </ul>
+      </div>
+      <!--------------- navbar ends here --------------->
+
+      <!--------------- hero section starts here --------------->
+      <div class="hero">
+        <div class="header">
+          <h1 class="line anim-typewriter">
+            Designing Dreams, Coding Realities
+          </h1>
+        </div>
+      </div>
+
+      <div class="scroll-down"></div>
+      <!--------------- hero section ends here --------------->
+
+      <!--------------- projects section starts here --------------->
+      <div class="container-fluid">
+        <br /><br /><br />
+
+        <h6>Selected projects</h6>
+
+        <div class="vertical"></div>
+        <br />
+
+        <div class="whitespace"></div>
+        <div class="whitespace"></div>
+
+        <div class="row">
+          <div class="col-lg-8"></div>
+
+          <div
+            class="col-lg-4 project project1 wow fadeInUp"
+            onclick="location.href='project.html'"
+          ></div>
+        </div>
+
+        <div class="whitespace"></div>
+
+        <a href="./project5.html">
+          <div class="row">
+            <div
+              class="col-lg-6 project project2 wow fadeInUp"
+              onclick="location.href=''"
+            ></div>
+
+            <div class="col-lg-6"></div>
+          </div>
+        </a>
+
+        <div class="whitespace"></div>
+
+        <a href="./project2.html">
+          <div class="row">
+            <div class="col-lg-7"></div>
+
+            <div
+              class="col-lg-4 project project3 wow fadeInUp"
+              onclick="location.href='project.html'"
+            ></div>
+
+            <div class="col-lg-1"></div>
+          </div>
+        </a>
+
+        <div class="whitespace"></div>
+
+        <a href="./project4.html">
+          <div class="row">
+            <div class="col-lg-1"></div>
+
+            <div
+              class="col-lg-5 project project4 wow fadeInUp"
+              onclick="location.href=''"
+            ></div>
+
+            <div class="col-lg-6"></div>
+          </div>
+        </a>
+
+        <div class="whitespace"></div>
+
+        <a href="./project3.html" class="links">
+          <div class="row">
+            <div class="col-lg-7"></div>
+
+            <div
+              class="col-lg-4 project project5 wow fadeInUp"
+              onclick="location.href=''"
+            ></div>
+
+            <div class="col-lg-1"></div>
+          </div>
+        </a>
+
+        <div class="whitespace"></div>
+
+        <a href="./project4.html" class="links">
+          <div class="row">
+            <div
+              class="col-lg-4 project project6 wow fadeInUp"
+              data-wow-delay="1.2s"
+              onclick="location.href=''"
+            ></div>
+
+            <div class="col-lg-6"></div>
+          </div>
+        </a>
+      </div>
+      <!--------------- projects section ends here --------------->
+
+      <!--------------- footer starts here --------------->
+      <div class="footer">
+        <div class="container">
+          <br /><br />
+
+          <div class="collab">
+            <div class="row">
+              <div class="col-lg-12">
+                <a href="./work2.html" class="view-more-link">View More</a>
+                <p class="wow fadeInUp">
+                  Got an interesting project? I can help you.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <br />
+
+          <div class="hr">
+            <div class="row"></div>
+          </div>
+
+          <br /><br />
+
+          <div class="info">
+            <div class="row">
+              <div class="col-lg-4" id="personal">
+                <p class="wow fadeInUp">connect with me</p>
+                <h4 class="wow fadeInUp" data-wow-delay="0.2s">
+                  linkedIn @sikwilanatasha
+                </h4>
+                <br /><br />
+              </div>
+
+              <div class="col-lg-4" id="media">
+                <p class="wow fadeInUp" data-wow-delay="0s">follow me</p>
+
+                <ul class="connection">
+                  <a href="https://github.com/Sikwila"
+                    ><li id="fb" class="wow fadeInUp" data-wow-delay="0.4s">
+                      git
+                    </li></a
+                  >
+                  <a href="https://www.linkedin.com/in/natashasikwila"
+                    ><li id="ig" class="wow fadeInUp" data-wow-delay="0.6s">
+                      li
+                    </li></a
+                  >
+                  <a href="https://wa.me/+263779480718"
+                    ><li id="tw" class="wow fadeInUp" data-wow-delay="0.8s">
+                      wa
+                    </li></a
+                  >
+                </ul>
+
+                <br /><br />
+              </div>
+
+              <div class="col-lg-4" id="address">
+                <p class="wow fadeInUp" data-wow-delay="0s">say hello</p>
+                <h4 class="wow fadeInUp" data-wow-delay="0.2s">
+                  <a href="mailto:sikwilanatasha04@gmail.com" class="my-email"
+                    >sikwilanatasha04@gmail.com</a
+                  >
+                </h4>
+                <br /><br />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--------------- footer ends here --------------->
+
+      <br /><br /><br /><br />
+    </div>
+
+    <!-- greensock cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+      // navigation starts here
+
+      $("#toggle").click(function () {
+        $(this).toggleClass("on");
+        $("#resize").toggleClass("active");
+      });
+
+      $("#resize ul li a").click(function () {
+        $(this).toggleClass("on");
+        $("#resize").toggleClass("active");
+      });
+
+      $(".close-btn").click(function () {
+        $(this).toggleClass("on");
+        $("#resize").toggleClass("active");
+      });
+
+      // navigation ends here
+
+      // nav animation
+
+      TweenMax.from("#brand", 1, {
+        delay: 0.4,
+        y: 10,
+        opacity: 0,
+        ease: Expo.easeInOut,
+      });
+
+      TweenMax.staggerFrom(
+        "#menu li a",
+        1,
+        {
+          delay: 0.4,
+          opacity: 0,
+          ease: Expo.easeInOut,
+        },
+        0.1
+      );
+
+      // nav animation ends
+
+      new WOW().init();
+    </script>
+  </body>
+</html>
+/* old style.css */ html, body { margin: 0; padding: 0; width: 100%; height:
+100%; font-family: "Roboto Mono" !important; background: #0f0f0f !important;
+color: #fff !important; } .whitespace { width: 100%; height: 100px; }
+@media(max-width: 768px) { .whitespace { display: none; } } /*---------------
+typewriter effect --------------- */ .line { width: 25em; top: 50%; margin:
+auto; border-right: 2px solid rgba(255, 255, 255, 0.75); text-align: center;
+white-space: nowrap; overflow: hidden; transform: translateY(-50%); }
+.anim-typewriter { animation: typewriter 5s steps(40) 1s 1 normal both,
+blinkTextCussor 503ms steps(41) infinite normal; } @keyframes typewriter { from
+{ width: 0; } to { width: 18em; } } @media(max-width: 768px) { @keyframes
+typewriter { from { width: 0; } to { width: 17em; } } } @keyframes
+blinkTextCussor { from { border-right-color: rgba(255, 255, 255, 0.75); } to {
+border-right-color: transparent; } } /*--------------- navigation
+--------------- */ nav { width: 100%; background: #0f0f0f; height: 80px;
+position: fixed; z-index: 1; } nav #brand { float: left; display: block;
+margin-left: 82px; line-height: 80px; font-weight: bold; } nav #brand a { color:
+#fff; transition: all 0.3s ease-out; } .brand-name{ @media (max-width:360px) {
+font-size:15px; } } nav #brand a:hover { text-decoration: none; } nav #menu {
+float: left; right: 80px; position: fixed; } nav #menu li { padding-left: 40px;
+display: inline-block; cursor: pointer; font-weight: 300; line-height: 80px;
+position: relative; transition: all 0.3s ease-out; } nav #menu li span {
+font-weight: 700; } nav #menu li a { color: #fff; } nav #menu li a:hover {
+text-decoration: none; } #toggle { position: absolute; right: 30px; top: 20px;
+font-weight: 300; z-index: 2; width: 30px; height: 30px; cursor: pointer; float:
+right; transition: all 0.3s ease-out; visibility: hidden; opacity: 0; }
+.close-btn { position: absolute; right: 16px; font-weight: 300; z-index: 2;
+cursor: pointer; top: -2px; line-height: 80px; } #resize { z-index: 1; top: 0px;
+position: fixed; background: #0f0f0f; width: 100%; height: 100%; visibility:
+hidden; opacity: 0; transition: all 1s ease-out; } #resize #menu { height: 90px;
+position: absolute; left: 45%; transform: translateX(-40%); text-align: center;
+display: table-cell; vertical-align: center; } #resize #menu li { display:
+block; text-align: center; padding: 10px 0; font-size: 50px; min-height: 50px;
+font-weight: bold; cursor: pointer; transition: all 0.3s ease-out; } #resize
+li:nth-child(1) { margin-top: 140px; } #resize #menu li a { color: #fff; }
+#resize #menu li a:hover { text-decoration: none; } #resize.active { visibility:
+visible; opacity: 1; } @media(max-width: 768px) { #toggle { visibility: visible;
+opacity: 1; margin-top: 6px; margin-right: 4px; } nav #brand { margin-left:
+24px; } #menu a { font-size: 20px; font-weight: 300; } #resize li span {
+font-weight: bolder; } nav #menu { display: none; } } @media(min-width: 768px) {
+#resize { visibility: hidden !important; } } /*--------------- hero section
+--------------- */ .hero { height: 100vh; display: flex; align-items: center;
+justify-content: center; } .hero h1 { font-weight: lighter; text-align: center;
+letter-spacing: -2px; line-height: 58px; } @media(max-width: 768px) { .header h1
+{ font-size: 26px; } } .my-email,.view-more-link{ color: #fff; text-decoration:
+none; } .links:hover{ text-decoration: none; } .my-email:hover{ color: #dbd9d9;
+text-decoration: underline; } .view-more-link:hover{ color: #dbd9d9;
+text-decoration: underline; } /* .connection{ display: flex; flex-direction:
+row; } */ /*--------------- scroll down icon animation --------------- */
+.scroll-down { position: absolute; left: 50%; bottom: 100px; display: block;
+text-align: center; font-size: 20px; z-index: 0; text-decoration: none;
+text-shadow: 0; width: 13px; height: 13px; border-bottom: 2px solid #fff;
+border-right: 2px solid #fff; -webkit-transform: translate(-50%, 0)
+rotate(45deg); transform: translate(-50%, 0) rotate(45deg); animation:
+fade_move_down 3s cubic-bezier(0.19, 1, 0.22, 1) infinite; } @keyframes
+fade_move_down { 0% { transform: translate(0, -20px) rotate(45deg); opacity: 0;
+} 50% { opacity: 1; } 100% { transform: translate(0, 20px) rotate(45deg);
+opacity: 0; } } /*--------------- projects section --------------- */ a{
+text-decoration: none; } h6 { text-align: center; } .vertical { margin-top:
+40px; border-left: 1px solid #fff; height: 80px; position: absolute; left: 50%;
+} .project { height: 500px; } .project1 { background:
+url(./images/GEOMETRY.jfif) no-repeat 50% 50%; background-size: cover; }
+.project1::after { content: "Furniture Website."; font-family: "Roboto Mono";
+font-size: 36px; position: relative; color: #fff; display: block; top: 8%; left:
+-60%; right: 0; bottom: 0; } .project1a{ background:
+url(./images/Sikwila-Natasha-DaasAfrica_PROJECT.png) no-repeat 50% 50%;
+background-size: cover; } .project1a::after { content: "DAAS Africa Website.";
+font-family: "Roboto Mono"; font-size: 36px; position: relative; color: #fff;
+display: block; top: 8%; left: -60%; right: 0; bottom: 0; } .project2 {
+background: url(./images/Letter\ &\ Plane\ Graphic\ Passport\ Case.jpeg)
+no-repeat 50% 50%; background-size: cover; } .project2::after { content: "Zim
+E-passport Website."; font-family: "Roboto Mono"; font-size: 36px; position:
+relative; color: rgb(204, 204, 204); display: block; top: 80%; left: 90%; right:
+0; bottom: 0; } .project2a{ background: url(./images/Genesis-project-rep.png)
+no-repeat 50% 50%; background-size: cover; } .project2a::after { content:
+"Genesis Real Estate Website."; font-family: "Roboto Mono"; font-size: 36px;
+position: relative; color: rgb(204, 204, 204); display: block; top: 80%; left:
+90%; right: 0; bottom: 0; } a:hover{ text-decoration: none; } .project3 {
+background: url(./images/Premium\ Vector\ _\ Real\ Estate\ Logo.jfif) no-repeat
+50% 50%; background-size: cover; } .project3::after { content: "Real Eastate.";
+font-family: "Roboto Mono"; font-size: 36px; position: relative; color: #fff;
+display: block; top: 80%; left: -50%; right: 0; bottom: 0; } .project4 {
+background: url(./images/Front\ View\ Concept\ Car\ Silhouette.jpeg) no-repeat
+50% 50%; background-size: cover; } .project5{ background: url(./images/Blank\
+Notebook\,\ Notebook.jpeg) no-repeat 50% 50%; background-size: cover; }
+.project5::after { content: "Notebook App."; font-family: "Roboto Mono";
+font-size: 36px; position: relative; color: #fff; display: block; top: 8%; left:
+-60%; right: 0; bottom: 0; } .project6{ background: url(./images/Calculator\
+Icon\ .jpeg) no-repeat 50% 50%; background-size: cover; } .project6::after{
+content: "Calculator App."; font-family: "Roboto Mono"; font-size: 36px;
+position: relative; color: #fff; display: block; top: 10%; left: 90%; right: 0;
+bottom: 0; text-decoration: none; } /* .project2 { background:
+url(./images/Premium\ Vector\ _\ Real\ Estate\ Logo.jfif) no-repeat 50% 50%;
+background-size: cover; } .project2::after { content: "Real Eastate.";
+font-family: "Roboto Mono"; font-size: 36px; position: relative; color: #fff;
+display: block; top: 80%; left: 90%; right: 0; bottom: 0; } */ .project4::after
+{ content: "Car Rental App."; font-family: "Roboto Mono"; font-size: 36px;
+position: relative; color: #fff; display: block; top: 10%; left: 90%; right: 0;
+bottom: 0; text-decoration: none; } @media(max-width: 768px) { .project { width:
+90% !important; margin: 14px auto; } .vertical { display: none; }
+.project1::after, .project2::after, .project3::after, .project4::after {
+display: none; } } /*--------------- footer section --------------- */ .collab {
+text-align: right; } .collab p { font-weight: lighter !important; margin-bottom:
+20px; } .hr { background: rgba(255, 255, 255, 0.2); height: 1px; } .info h4 {
+font-size: 18px; font-weight: lighter; } .info p { color: grey; font-weight:
+lighter; } .info li { font-weight: lighter; color: #fff; font-size: 18px;
+padding-left: 20px; } #fb::before { display: inline-block; content: '';
+border-radius: 100%; height: 4px; width: 4px; margin-right: 6px; background:
+#3b5998; } #ig::before { display: inline-block; content: ''; border-radius:
+100%; height: 4px; width: 4px; margin-right: 6px; background: #fcaf45; }
+#tw::before { display: inline-block; content: ''; border-radius: 100%; height:
+4px; width: 4px; margin-right: 6px; background: #55acee; } #yt::before {
+display: inline-block; content: ''; border-radius: 100%; height: 4px; width:
+4px; margin-right: 6px; background: #c4302b; } #media, #address { text-align:
+right; } #media ul { list-style: none; } #media ul li { display: inline-block; }
+@media(max-width: 768px) { .collab, #personal, #media, #address { text-align:
+center; } .info ul { margin: 0 0 0 -22px; padding: 0; } } /*--------------- work
+page --------------- */ .hero-content { margin-left: 0%; } .hero-content p {
+font-weight: 300; line-height: 36px; color: grey; } .hero-content h6 {
+text-align: left; } @media(max-width: 768px) { .hero-content { padding-top:
+50px; width: 96%; margin: 0 auto; } } .image1{ background:
+url(./images/sir-bruno-carpentry.png) no-repeat 50% 70%; background-position-x:
+center; background-size: cover; } .image2 { background:
+url(./images/genesis-website.png) no-repeat 50% 70%; background-position-x:
+center; background-size: cover; } .image1a{ background:
+url(./images/genesis-website.png) no-repeat 50% 70%; background-position-x:
+center; background-size: cover; } .image1c{ background: url(./images/Butterfly\
+Design\ .jfif) no-repeat 50% 70%; background-position-x: center;
+background-size: cover; } .image1d{ background: url(./images/car\ logo\ with\
+car\ outline.jfif) no-repeat 50% 70%; background-position-x: center;
+background-size: cover; } .image5{ background: url(./images/PASSPORT-WEB.png)
+no-repeat 50% 70%; background-position-x: center; background-size: cover; }
+.image6{ background: url(./images/daasp\ 3.png) no-repeat 50% 70%;
+background-position-x: center; background-size: cover; } .image7{ background:
+url(./images/gen-web-rep2.png) no-repeat 50% 70%; background-position-x: center;
+background-size: cover; } /*---------------about page --------------- */ .about
+{ height: 500px; margin-top: 120px; } .image { background: url(./images/Giulia\
+@ArternDesign.jpeg) no-repeat 50% 70%; background-position-x: center;
+background-size: cover; } /*--------------- contact form --------------- */
+#contact-form { margin: 5% 1.4%; } #contact-form ul { list-style: none;
+border-radius: 5px; margin-bottom: 40px; } #contact-form li { padding: 10px; }
+#contact-form li:last-of-type { border-bottom: none; } #contact-form label {
+display: block; font-size: .8em; color: #999; padding-left: 5px; } #contact-form
+input, #contact-form textarea { width: 100%; padding: 5px; border: none; resize:
+vertical; background: transparent; color: #fff; font-weight: bolder; }
+input:focus { outline: none; border: none; } textarea:focus { outline: none;
+border: none; } .textarea { border-bottom: 1px solid #dfdfdf; } .send {
+margin-left: 50px; text-transform: uppercase; padding: 20px 30px; background:
+transparent; color: #dfdfdf; font-size: 14px; letter-spacing: 2px; } .send:hover
+{ background: #dfdfdf; color: #101010; } @media(max-width: 768px) {
+#contact-form { margin: 5% -8%; width: 98%; } } /*--------------- project page
+--------------- */ .prev, .next p { color: grey; } .prev p { text-align: left; }
+.next p { text-align: right; } //work.html <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="natashasikwila" />
+
+    <title>Work</title>
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- bootstrap cdns -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i"
+      rel="stylesheet"
+    />
+
+    <!-- for on scroll animations -->
+    <link rel="stylesheet" href="animate.css" />
+    <script src="wow.min.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!--------------- navbar starts here --------------->
+      <nav>
+        <span id="brand">
+          <a href="index.html">Sikwila Tech Solutions</a>
+        </span>
+
+        <ul id="menu">
+          <li>
+            <a href="index.html">home<span>.</span></a>
+          </li>
+          <li>
+            <a href="work.html">work<span>.</span></a>
+          </li>
+          <li>
+            <a href="about.html">about me<span>.</span></a>
+          </li>
+          <li>
+            <a href="contact.html">contact<span>.</span></a>
+          </li>
+        </ul>
+
+        <div id="toggle">
+          <div class="span">menu</div>
+        </div>
+      </nav>
+
+      <div id="resize">
+        <div class="close-btn">close</div>
+
+        <ul id="menu">
+          <li>
+            <a href="index.html">home<span>.</span></a>
+          </li>
+          <li>
+            <a href="work.html">work<span>.</span></a>
+          </li>
+          <li>
+            <a href="about.html">about me<span>.</span></a>
+          </li>
+          <li>
+            <a href="contact.html">contact<span>.</span></a>
+          </li>
+        </ul>
+      </div>
+
+      <!--------------- navbar ends here --------------->
+
+      <div class="whitespace"></div>
+
+      <!--------------- hero section starts here --------------->
+      <div class="container">
+        <div class="hero-content">
+          <br /><br />
+
+          <div class="row">
+            <div class="col-lg-8">
+              <h3 class="wow fadeInUp" data-wow-delay="1s">work.</h3>
+              <br />
+              <p class="wow fadeInUp" data-wow-delay="1.2s">
+                In just four months, I’ve advanced from a beginner to a
+                proficient web developer, mastering HTML, CSS, and Bootstrap,
+                while enhancing my JavaScript and React skills. My passion for
+                coding was further ignited through teaching Scratch to students
+                at Mbare Primary Schools, which I’ve been doing for over five
+                months at Best Way College, Nharira, and Chitsere Primary
+                Schools. This experience deepened my appreciation for coding and
+                user experience. <br /><br />Additionally, I gained valuable
+                insights into UI/UX design and digital marketing through a
+                series of two-months crash courses before I began my journey in
+                speacilizing in Web development. Explore my projects below and
+                share your feedback to help me continue growing
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--------------- hero section ends here --------------->
+
+      <!--------------- projects section starts here --------------->
+      <div class="container-fluid">
+        <div class="whitespace"></div>
+        <div class="whitespace"></div>
+
+        <div class="row">
+          <div class="col-lg-8"></div>
+
+          <div
+            class="col-lg-4 project project1 wow fadeInUp"
+            data-wow-delay="1.2s"
+            onclick="location.href='project.html'"
+          ></div>
+        </div>
+
+        <div class="whitespace"></div>
+
+        <a href="./project5.html" class="links">
+          <div class="row">
+            <div
+              class="col-lg-4 project project2 wow fadeInUp"
+              data-wow-delay="1.2s"
+              onclick="location.href='project.html'"
+            ></div>
+
+            <div class="col-lg-6"></div>
+          </div>
+        </a>
+        <div class="whitespace"></div>
+
+        <a href="./project2.html" class="links">
+          <div class="row">
+            <div class="col-lg-7"></div>
+
+            <div
+              class="col-lg-4 project project3 wow fadeInUp"
+              onclick="location.href=''"
+            ></div>
+
+            <div class="col-lg-1"></div>
+          </div>
+        </a>
+
+        <div class="whitespace"></div>
+
+        <a href="./project4.html" class="links">
+          <div class="row">
+            <div class="col-lg-1"></div>
+
+            <div
+              class="col-lg-5 project project4 wow fadeInUp"
+              onclick="location.href='project4.html'"
+            ></div>
+
+            <div class="col-lg-6"></div>
+          </div>
+        </a>
+
+        <div class="whitespace"></div>
+        <a href="./project3.html" class="links">
+          <div class="row">
+            <div class="col-lg-7"></div>
+
+            <div
+              class="col-lg-4 project project5 wow fadeInUp"
+              onclick="location.href='project3.html'"
+            ></div>
+
+            <div class="col-lg-1"></div>
+          </div>
+        </a>
+        <div class="whitespace"></div>
+        <a href="./project4.html" class="links">
+          <div class="row">
+            <div
+              class="col-lg-4 project project6 wow fadeInUp"
+              data-wow-delay="1.2s"
+              onclick="location.href=''"
+            ></div>
+
+            <div class="col-lg-6"></div>
+          </div>
+        </a>
+        <div class="whitespace"></div>
+      </div>
+
+      <!--------------- projects section ends here --------------->
+
+      <!--------------- footer starts here --------------->
+      <div class="footer">
+        <div class="container">
+          <br /><br />
+
+          <div class="collab">
+            <div class="row">
+              <div class="col-lg-12">
+                <a href="./work2.html" class="view-more-link">Github Profile</a>
+                <br /><a href="./work2.html" class="view-more-link"
+                  >My Design Projects</a
+                >
+                <p class="wow fadeInUp">
+                  Got an interesting project? I can help you.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <br />
+
+          <div class="hr">
+            <div class="row"></div>
+          </div>
+
+          <br /><br />
+
+          <div class="info">
+            <div class="row">
+              <div class="col-lg-4" id="personal">
+                <p class="wow fadeInUp">connect with me</p>
+                <h4 class="wow fadeInUp" data-wow-delay="0.2s">
+                  linkedIn @sikwilanatasha
+                </h4>
+                <br /><br />
+              </div>
+
+              <div class="col-lg-4" id="media">
+                <p class="wow fadeInUp" data-wow-delay="0s">follow me</p>
+
+                <ul class="connection">
+                  <a href=""
+                    ><li id="fb" class="wow fadeInUp" data-wow-delay="0.4s">
+                      git
+                    </li></a
+                  >
+                  <a href=""
+                    ><li id="ig" class="wow fadeInUp" data-wow-delay="0.6s">
+                      li
+                    </li></a
+                  >
+                  <a href=""
+                    ><li id="tw" class="wow fadeInUp" data-wow-delay="0.8s">
+                      wa
+                    </li></a
+                  >
+                </ul>
+
+                <br /><br />
+              </div>
+
+              <div class="col-lg-4" id="address">
+                <p class="wow fadeInUp" data-wow-delay="0s">say hello</p>
+                <h4 class="wow fadeInUp" data-wow-delay="0.2s">
+                  <a href="mailto:sikwilanatasha04@gmail.com" class="my-email"
+                    >sikwilanatasha04@gmail.com</a
+                  >
+                </h4>
+                <br /><br />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--------------- footer ends here --------------->
+
+      <br /><br /><br /><br />
+    </div>
+
+    <!-- greensock cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+      // navigation starts here
+      $("#toggle").click(function () {
+        $(this).toggleClass("on");
+        $("#resize").toggleClass("active");
+      });
+
+      $("#resize ul li a").click(function () {
+        $(this).toggleClass("on");
+        $("#resize").toggleClass("active");
+      });
+
+      $(".close-btn").click(function () {
+        $(this).toggleClass("on");
+        $("#resize").toggleClass("active");
+      });
+
+      // navigation ends here
+
+      // nav animation
+
+      TweenMax.from("#brand", 1, {
+        delay: 0.4,
+        y: 10,
+        opacity: 0,
+        ease: Expo.easeInOut,
+      });
+
+      TweenMax.staggerFrom(
+        "#menu li a",
+        1,
+        {
+          delay: 0.4,
+          opacity: 0,
+          ease: Expo.easeInOut,
+        },
+        0.1
+      );
+
+      // nav animation ends
+
+      new WOW().init();
+    </script>
+  </body>
+</html>
+<!-- About Me -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="natashasikwila" />
+
+    <title>About Me</title>
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- bootstrap cdns -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i"
+      rel="stylesheet"
+    />
+
+    <!-- for on scroll animations -->
+    <link rel="stylesheet" href="animate.css" />
+    <script src="wow.min.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!--------------- navbar starts here --------------->
+      <nav>
+        <span id="brand">
+          <a href="index.html" class="brand-name">Sikwila Tech Solutions</a>
+        </span>
+
+        <ul id="menu">
+          <li>
+            <a href="index.html">home<span>.</span></a>
+          </li>
+          <li>
+            <a href="work.html">work<span>.</span></a>
+          </li>
+          <li>
+            <a href="about.html">about me<span>.</span></a>
+          </li>
+          <li>
+            <a href="contact.html">contact<span>.</span></a>
+          </li>
+        </ul>
+
+        <div id="toggle">
+          <div class="span">menu</div>
+        </div>
+      </nav>
+
+      <div id="resize">
+        <div class="close-btn">close</div>
+
+        <ul id="menu">
+          <li>
+            <a href="index.html">home<span>.</span></a>
+          </li>
+          <li>
+            <a href="work.html">work<span>.</span></a>
+          </li>
+          <li>
+            <a href="about.html">about me<span>.</span></a>
+          </li>
+          <li>
+            <a href="contact.html">contact<span>.</span></a>
+          </li>
+        </ul>
+      </div>
+
+      <!--------------- navbar ends here --------------->
+
+      <!--------------- hero image starts here --------------->
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-lg-12 about image wow fadeInUp"
+            data-wow-delay="1s"
+          ></div>
+        </div>
+      </div>
+      <!--------------- hero image ends here --------------->
+
+      <!--------------- hero section starts here --------------->
+      <div class="container">
+        <div class="hero-content">
+          <br /><br />
+
+          <div class="row">
+            <div class="col-lg-12">
+              <h3 class="wow fadeInUp" data-wow-delay="1.2s">about me.</h3>
+              <br />
+
+              <p class="wow fadeInUp">
+                Starting from scratch this year(2024) with zero computer
+                knowledge here at Uncommon.org. I've discovered that with sheer
+                determination, the right guidance, and consistent effort,
+                anything is achievable. Desire truly is a magnet. I'm passionate
+                about transforming ideas into digital realities. My journey in
+                web development is a testament to the power of perseverance.
+              </p>
+
+              <p class="wow fadeInUp" data-wow-delay="0.2s">
+                Let’s create something extraordinary together.I'm also actively
+                seeking internship and/or learnership opportunities to further
+                hone my skills and contribute to real-world projects. Feel free
+                to reach out if you have any openings!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--------------- hero section ends here --------------->
+
+      <div class="whitespace"></div>
+
+      <!--------------- footer starts here --------------->
+      <div class="footer">
+        <div class="container">
+          <br /><br />
+
+          <div class="collab">
+            <div class="row">
+              <div class="col-lg-12">
+                <p class="wow fadeInUp">
+                  Got an interesting project? I can help you.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <br />
+
+          <div class="hr">
+            <div class="row"></div>
+          </div>
+
+          <br /><br />
+
+          <div class="info">
+            <div class="row">
+              <div class="col-lg-4" id="personal">
+                <p class="wow fadeInUp">connect with me</p>
+                <h4 class="wow fadeInUp" data-wow-delay="0.2s">
+                  ig @natashasikwila
+                </h4>
+                <br /><br />
+              </div>
+
+              <div class="col-lg-4" id="media">
+                <p class="wow fadeInUp" data-wow-delay="0s">follow me</p>
+
+                <ul>
+                  <a href=""
+                    ><li id="fb" class="wow fadeInUp" data-wow-delay="0.4s">
+                      fb
+                    </li></a
+                  >
+                  <a href=""
+                    ><li id="ig" class="wow fadeInUp" data-wow-delay="0.6s">
+                      ig
+                    </li></a
+                  >
+                  <a href=""
+                    ><li id="tw" class="wow fadeInUp" data-wow-delay="0.8s">
+                      tw
+                    </li></a
+                  >
+                  <a href=""
+                    ><li id="yt" class="wow fadeInUp" data-wow-delay="1s">
+                      yt
+                    </li></a
+                  >
+                </ul>
+
+                <br /><br />
+              </div>
+
+              <div class="col-lg-4" id="address">
+                <p class="wow fadeInUp" data-wow-delay="0s">say hello</p>
+                <h4 class="wow fadeInUp" data-wow-delay="0.2s">
+                  natashasikwila04@gmail.com
+                </h4>
+                <br /><br />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--------------- footer ends here --------------->
+
+      <br /><br /><br /><br />
+    </div>
+
+    <!-- greensock cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+      // navigation starts here
+      $("#toggle").click(function () {
+        $(this).toggleClass("on");
+        $("#resize").toggleClass("active");
+      });
+
+      $("#resize ul li a").click(function () {
+        $(this).toggleClass("on");
+        $("#resize").toggleClass("active");
+      });
+
+      $(".close-btn").click(function () {
+        $(this).toggleClass("on");
+        $("#resize").toggleClass("active");
+      });
+
+      // navigation ends here
+
+      // nav animation
+
+      TweenMax.from("#brand", 1, {
+        delay: 0.4,
+        y: 10,
+        opacity: 0,
+        ease: Expo.easeInOut,
+      });
+
+      TweenMax.staggerFrom(
+        "#menu li a",
+        1,
+        {
+          delay: 0.4,
+          opacity: 0,
+          ease: Expo.easeInOut,
+        },
+        0.1
+      );
+
+      // nav animation ends
+
+      new WOW().init();
+    </script>
+  </body>
+</html>
+<!-- Contact.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="natashasikwila" />
+
+    <title>Contact</title>
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- bootstrap cdns -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i"
+      rel="stylesheet"
+    />
+
+    <!-- for on scroll animations -->
+    <link rel="stylesheet" href="animate.css" />
+    <script src="wow.min.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!--------------- navbar starts here --------------->
+      <nav>
+        <span id="brand">
+          <a href="index.html">Sikwila Tech Solutions</a>
+        </span>
+
+        <ul id="menu">
+          <li>
+            <a href="index.html">home<span>.</span></a>
+          </li>
+          <li>
+            <a href="work.html">work<span>.</span></a>
+          </li>
+          <li>
+            <a href="about.html">about me<span>.</span></a>
+          </li>
+          <li>
+            <a href="contact.html">contact<span>.</span></a>
+          </li>
+        </ul>
+
+        <div id="toggle">
+          <div class="span">menu</div>
+        </div>
+      </nav>
+
+      <div id="resize">
+        <div class="close-btn">close</div>
+
+        <ul id="menu">
+          <li>
+            <a href="index.html">home<span>.</span></a>
+          </li>
+          <li>
+            <a href="work.html">work<span>.</span></a>
+          </li>
+          <li>
+            <a href="about.html">about me<span>.</span></a>
+          </li>
+          <li>
+            <a href="contact.html">contact<span>.</span></a>
+          </li>
+        </ul>
+      </div>
+
+      <!--------------- navbar ends here --------------->
+
+      <div class="whitespace"></div>
+
+      <!--------------- hero section starts here say hello 👋 --------------->
+      <div class="container">
+        <div class="hero-content">
+          <br /><br />
+
+          <div class="row">
+            <div class="col-lg-8">
+              <h3 class="wow fadeInUp" data-wow-delay="1s">say hello 👋</h3>
+              <br />
+              <p class="wow fadeInUp" data-wow-delay="1.2s">
+                "The more we share, the more we have." - Unknown Let's connect!
+                Interested in discussing your project or exploring how I can
+                help? If you have internship or learnership opportunities I'd
+                appreaciate you contacting me.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--------------- hero section ends here --------------->
+
+      <!-- <div class="whitespace"></div> -->
+
+      <!--------------- form section starts here --------------->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-8">
+            <form name="contact-form" id="contact-form" method="post" action="">
+              <ul>
+                <li class="wow fadeInUp" data-wow-delay="1.4s">
+                  <label for="contact-name">Name :</label>
+                  <div class="textarea">
+                    <input
+                      type="text"
+                      name="contact-name"
+                      id="contact-name"
+                      value=""
+                      required
+                    />
+                  </div>
+                </li>
+
+                <li class="wow fadeInUp" data-wow-delay="1.6s">
+                  <label for="contact-email">Email :</label>
+                  <div class="textarea">
+                    <input
+                      type="email"
+                      name="contact-email"
+                      id="contact-email"
+                      value=""
+                      required
+                    />
+                  </div>
+                </li>
+
+                <li class="wow fadeInUp" data-wow-delay="1.6s">
+                  <label for="contact-project">Message :</label>
+                  <div class="textarea">
+                    <textarea
+                      type="email"
+                      name="contact-project"
+                      id="contact-project"
+                      rows="6"
+                      value=""
+                      required
+                    >
+                    </textarea>
+                  </div>
+                </li>
+              </ul>
+
+              <button
+                type="submit"
+                name="contact-submit"
+                id="contact-submit"
+                class="send wow fadeInUp"
+              >
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!--------------- form section ends here --------------->
+
+      <div class="whitespace"></div>
+
+      <!--------------- footer starts here --------------->
+      <div class="footer">
+        <div class="container">
+          <br /><br />
+
+          <div class="collab">
+            <div class="row">
+              <div class="col-lg-12">
+                <p class="wow fadeInUp">
+                  Got an interesting project? I can help you.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <br />
+
+          <div class="hr">
+            <div class="row"></div>
+          </div>
+
+          <br /><br />
+
+          <div class="info">
+            <div class="row">
+              <div class="col-lg-4" id="personal">
+                <p class="wow fadeInUp">connect with me</p>
+                <h4 class="wow fadeInUp" data-wow-delay="0.2s">
+                  ig @natashasikwila
+                </h4>
+                <br /><br />
+              </div>
+
+              <div class="col-lg-4" id="media">
+                <p class="wow fadeInUp" data-wow-delay="0s">follow me</p>
+
+                <ul class="connection">
+                  <a href="https://github.com/Sikwila"
+                    ><li id="fb" class="wow fadeInUp" data-wow-delay="0.4s">
+                      git
+                    </li></a
+                  >
+                  <a href="https://www.linkedin.com/in/natashasikwila"
+                    ><li id="ig" class="wow fadeInUp" data-wow-delay="0.6s">
+                      li
+                    </li></a
+                  >
+                  <a href="https://wa.me/+263779480718"
+                    ><li id="tw" class="wow fadeInUp" data-wow-delay="0.8s">
+                      wa
+                    </li></a
+                  >
+                </ul>
+
+                <br /><br />
+              </div>
+
+              <div class="col-lg-4" id="address">
+                <p class="wow fadeInUp" data-wow-delay="0s">say hello</p>
+                <h4 class="wow fadeInUp" data-wow-delay="0.2s">
+                  <a href="mailto:sikwilanatasha04@gmail.com" class="my-email"
+                    >sikwilanatasha04@gmail.com</a
+                  >
+                </h4>
+                <br /><br />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--------------- footer ends here --------------->
+
+      <br /><br /><br /><br />
+    </div>
+
+    <!-- greensock cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+      // navigation starts here
+      $("#toggle").click(function () {
+        $(this).toggleClass("on");
+        $("#resize").toggleClass("active");
+      });
+
+      $("#resize ul li a").click(function () {
+        $(this).toggleClass("on");
+        $("#resize").toggleClass("active");
+      });
+
+      $(".close-btn").click(function () {
+        $(this).toggleClass("on");
+        $("#resize").toggleClass("active");
+      });
+
+      // navigation ends here
+
+      // nav animation
+
+      TweenMax.from("#brand", 1, {
+        delay: 0.4,
+        y: 10,
+        opacity: 0,
+        ease: Expo.easeInOut,
+      });
+
+      TweenMax.staggerFrom(
+        "#menu li a",
+        1,
+        {
+          delay: 0.4,
+          opacity: 0,
+          ease: Expo.easeInOut,
+        },
+        0.1
+      );
+
+      // nav animation ends
+
+      new WOW().init();
+    </script>
+  </body>
+</html>
+//new index.html <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sikwila Tech Solutions Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <!----Font awesome cdn  font icon css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="hero-header">
+      <div class="wrapper">
+        <header>
+          <div class="logo">
+            <!-- <i class="fa-solid fa-a"></i> -->
+            <div class="logo-text">Sikwila Tech Solutions</div>
+          </div>
+          <nav>
+            <div class="togglebtn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <ul class="navlinks">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Resume</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </header>
+        <div class="container">
+          <div class="hero-img">
+            <div class="my-img"></div>
+          </div>
+          <div class="hero-text">
+            <h5>Hi I'm a <span class="input">Frontend Developer</span></h5>
+            <h1>Natasha Sikwila</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+              delectus dolorum quibusdam maiores magni quod rem in porro,
+              laborum, laudantium ex repellendus explicabo, autem molestiae!
+            </p>
+
+            <div class="btn-group">
+              <a href="#" class="btn active">Download CV</a>
+              <a href="#" class="btn">Contact</a>
+            </div>
+
+            <div class="social">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+              <a href="#"><i class="fa-brands fa-pintrest"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---typed js for typing text effect-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+    <script>
+      /** creating button click show hide navbar **/
+      var togglebtn = document.querySelector(".togglebtn");
+      var nav = document.querySelector(".navlinks");
+      var links = document.querySelector(".navlinks li");
+
+      togglebtn.addEventListener("click", function () {
+        this.classList.toggle("click");
+        nav.classList.toggle("open");
+      });
+
+      var typed = new Typed(".input", {
+        strings: ["Frontend Developer", "UX Designer", "Web Developer"],
+        typedSpeed: 70,
+        backSpeed: 55,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
+/*new style.css which only has to affect the new index.html and new navbar in
+the the new index.html */ *{ box-sizing: border-box; padding: 0; margin: 0;
+font-family: poppins,sans-serif; text-decoration: none; } body{ overflow-x:
+hidden; } .hero-header{ width:100%; height: 100%; min-height: 100vh; background:
+#222; } .wrapper{ width:1280px; max-width: 95%; margin: 0 auto; padding: 0 20px;
+} header{ padding: 40px 0 30px; display: flex; justify-content: space-between;
+align-items: center; flex-wrap: wrap; } .navlinks span{ font-weight: bolder;
+font-weight: 700; } .logo{ display: inline-flex; justify-content: center;
+align-items: center; } .logo i{ height: 45px; width:45px; background-color:
+#ed008a; border-radius: 50%; color:#fff; font-weight: 700; font-size: 1.5rem;
+padding: 10px; margin-right: 5px; cursor: pointer; text-align: center; } .logo
+.logo-text{ font-size: 20px; font-weight: 500; color:#fff; } nav .togglebtn{
+width: 35px; height: 35px; position: absolute; top:45px; right: 3%; z-index: 5;
+cursor: pointer; display: none; } nav .togglebtn span{ display: block;
+background-color: #ed008a; margin: 5px 0px; width:100%; height:3px; transition:
+0.3s; transition-property: transform, opacity; } nav .navlinks{ list-style-type:
+none; } nav .navlinks li{ display: inline-block; } nav .navlinks li a{
+color:#e5e5e5; margin-right: 2.5rem; } .container { display: flex;
+justify-content: space-around; align-items: center; padding-top:4rem; }
+.container .hero-img{ width: 300px; height:300px; border-radius: 50%; overflow:
+hidden; border: 15px solid #444; box-shadow: 5px 7px 25px rgba(0,0,0,0.5); }
+.hero-img .my-img{ height: 100%; width:100%; transition: 0.5s; } .hero-img
+.my-img:hover{ transform: scale(1.2); } .hero-img .my-img{ background-image:
+url(./images/webdev1.jpg); background-position-x: center; background-size:
+cover; } .hero-text{ max-width: 500px; display: flex; flex-direction: column; }
+.hero-text h5{ color:#e5e5e5; font-size: 14px; } .hero-text h5 span{
+color:#ed008a; font-size: 16px; } .hero-text h1{ color: #ed008a; font-size:
+3rem; } .hero-text p{ color:#e5e5e5; } .btn-group{ margin:45px 0; } .btn-group
+.btn{ border-color: #d5d5d5; color:#fff; background-color: #333; padding: 12px
+25px; margin: 5px 0px; margin-right:7px; border-radius: 30px; border:2px solid
+#e5e5e5; box-shadow: 0 10px 10px -8px rgb(0 0 0 / 78%); } .btn.active{
+border-color: #ed008a; } .hero-text .social i{ color: #e5e5e5; font-size: 18px;
+margin-right: 10px; transition: 0.5s; } .hero-text .social i:hover{
+color:#ed008a; transform: rotate(360deg); } /* Respnosiv design & displaying
+navbar for small screen */ @media(max-width:930px) { nav .togglebtn{ display:
+initial; } /* for toggle button**/ .click { top:45px; } .click span{ position:
+absolute; margin-top:12px } .click span:first-child{ transform: rotate(-40deg);
+} .click span:nth-child(2) { opacity: 0; margin:0; } .click span:last-child{
+transform: rotate(45deg); top:0; } nav .navlinks{ position: absolute; top:110px;
+right:-100%; bottom: 0; width: 60%; height: 100vh; background-color: #222;
+z-index: 3; box-shadow: 5px 13px 30px rgba(0,0,0,0.1); transition: 0.5s;
+padding: 25px 0px; } nav .navlinks li{ display: block; } nav .navlinks li a{
+display: block; margin-bottom: 15px; text-align: center; } nav .navlinks.open{
+right:0; } } @media(max-width:768px) { .container{ flex-direction: column;
+padding-top:2rem } .hero-text{ padding:40px 0px; } }
