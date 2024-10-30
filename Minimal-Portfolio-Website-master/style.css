@@ -1,11 +1,16 @@
 
 /*---------------style.css --------------- */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 html, body {
       margin: 0;
       padding: 0;
       width: 100%;
       height: 100%;
-      font-family: "Roboto Mono" !important;
+      font-family: "Barlow Condensed", sans-serif !important;
       background: #0f0f0f !important;
       color: #fff !important;
 }
@@ -343,7 +348,7 @@ h6 {
 
 .project1::after {
       content: "Furniture Website.";
-      font-family: "Roboto Mono";
+      font-family: "Barlow Condensed", sans-serif;
       font-size: 36px;
       position: relative;
       color: #fff;
@@ -361,7 +366,7 @@ h6 {
 
 .project1a::after {
       content: "DAAS Africa Website.";
-      font-family: "Roboto Mono";
+      font-family: "Barlow Condensed", sans-serif;
       font-size: 36px;
       position: relative;
       color: #fff;
@@ -379,7 +384,7 @@ h6 {
 
 .project2::after {
       content: "Car Rental App";
-      font-family: "Roboto Mono";
+      font-family: "Barlow Condensed", sans-serif;
       font-size: 36px;
       position: relative;
       color: rgb(204, 204, 204);
@@ -397,7 +402,7 @@ h6 {
 
 .project2a::after {
       content: " Vegetable delivery App";
-      font-family: "Roboto Mono";
+      font-family: "Barlow Condensed", sans-serif;
       font-size: 36px;
       position: relative;
       color: white;
@@ -419,7 +424,7 @@ a:hover{
 
 .project3::after {
       content: "Real Eastate Website";
-      font-family: "Roboto Mono";
+      font-family: "Barlow Condensed", sans-serif;
       font-size: 36px;
       position: relative;
       color: #fff;
